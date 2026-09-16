@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Loreweave</title>
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="top">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+          <rect width="32" height="32" rx="7" fill="#f0ebe3" />
+          <path fill="#0d0c0b" d="M16 5 L25 14 L16 23 L7 14 Z" />
+          <path fill="#f0ebe3" d="M9 13 H23 V15.6 H9 Z" />
+          <path fill="#8ea0b0" d="M16 22.8 L12.4 28 H19.6 Z" />
+        </svg>
+        <div>
+          <div class="brand">Loreweave</div>
+          <div class="muted" id="status">Local-first · BYOK</div>
+        </div>
+      </header>
+      <nav class="modes" aria-label="Modes">
+        <button data-mode="browser" aria-current="true">AI Browser</button>
+        <button data-mode="studio">Studio</button>
+        <button data-mode="reader">Reader</button>
+        <button data-mode="memory">Memory</button>
+        <button data-mode="providers">Providers</button>
+        <button data-mode="support">Support</button>
+      </nav>
+      <main class="main" id="main"></main>
+      <footer class="composer" id="composer">
+        <label class="muted" for="prompt">Ask</label>
+        <textarea id="prompt" placeholder="Ask about the page or continue the story…"></textarea>
+        <div class="row">
+          <button class="btn" id="send">Send</button>
+          <button class="btn ghost" id="read-page">Read this page</button>
+          <button class="btn ghost" id="palette">Commands</button>
+        </div>
+      </footer>
+    </div>
+    <script src="sidebar.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Loreweave">
+  <rect width="32" height="32" rx="7" fill="#0d0c0b"/>
+  <path fill="#f0ebe3" d="M16 4 L26 14 L16 24 L6 14 Z"/>
+  <path fill="#0d0c0b" d="M8 13 H24 V16 H8 Z"/>
+  <path fill="#0d0c0b" d="M14.5 6 H17.5 V22 H14.5 Z"/>
+  <path fill="#8ea0b0" d="M16 23.5 L12 29 H20 Z"/>
+</svg>

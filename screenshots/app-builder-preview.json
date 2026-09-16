@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Loreweave",
+      "hasCanvas": false,
+      "bodyTextLen": 917,
+      "bodyTextHash": "c36acee201127d579fcacd3776caeddc48c6fbf3cabefcc6c2077ea8360a63b2",
+      "bodyTextPrefix": "Loreweave AI Browser Ctrl/⌘K Get extension PAGE CONTEXT Loreweav",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Loreweave",
+      "hasCanvas": false,
+      "bodyTextLen": 932,
+      "bodyTextHash": "6dbb9276aadef7313e181f07b1c00438159334931d21e3b1fad6433aab0af0b8",
+      "bodyTextPrefix": "Loreweave AI Browser PAGE CONTEXT Loreweave preview Paste a URL ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

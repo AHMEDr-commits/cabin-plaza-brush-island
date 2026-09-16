@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Loreweave settings</title>
+    <link rel="stylesheet" href="sidebar.css" />
+  </head>
+  <body style="max-width: 720px; margin: 0 auto; padding: 32px">
+    <h1 class="brand">Loreweave</h1>
+    <p class="muted">Local-first. No developer account required. Keys never go to a Loreweave server.</p>
+    <div class="card">
+      <label class="muted"><input type="checkbox" id="auto-page" /> Auto-include page context (still only on send)</label>
+      <br /><br />
+      <label class="muted"><input type="checkbox" id="auto-mem" checked /> Include notes in prompts</label>
+      <br /><br />
+      <button class="btn" id="save">Save</button>
+      <p class="muted" id="out"></p>
+    </div>
+    <p class="muted">Rebind shortcuts at chrome://extensions/shortcuts — Open Loreweave defaults to Ctrl+Shift+Space.</p>
+    <script src="options.js" type="module"></script>
+  </body>
+</html>
